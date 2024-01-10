@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.logo{
+    width: 100px;
+    display: flex !important;
+    align-items: flex-start !important;
+}
+*{
+    background-color: white;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+   
+}
+body{
+    background-color: white !important;
+}
+.img-cover{
+    width: 200px !important;
+    height: auto !important;
+}
+#book-card{
+ border-radius: 25px !important;
+
+}
+#book-card:hover{
+    border: 1px solid black;
+   }
